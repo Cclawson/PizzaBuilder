@@ -1,0 +1,34 @@
+.tabs {
+    width: 456px;
+    height: 400px;
+}
+
+#pizza {
+    background-color: purple;
+    width: 500px;
+    height: 500px;
+}
+
+#reciept {
+    background-color: grey;
+    width: 456px;
+    height: 400px;
+}
+
+#topTitle {
+    background-color: red;
+    height: 40px;
+}
+
+#topBlock {
+    height: 100px;
+}
+
+#priceTitle {
+    background-color: red;
+    height: 40px;
+}
+
+#priceBlock {
+    height: 100px;
+}
