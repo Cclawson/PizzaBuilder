@@ -45,7 +45,7 @@
 		{
 			"name": "White Onions",
 			"id": "white_onions",
-			"url": ""
+			"url": "http://www.moes.com/public/images/food/ingredients/diced-onions.jpg"
     },
 		{
 			"name": "Black Olives",
@@ -60,17 +60,17 @@
 		{
 			"name": "Green Peppers",
 			"id": "green_peppers",
-			"url": ""
+			"url": "http://www.moes.com/public/images/food/ingredients/grilled-peppers.jpg"
     },
 		{
 			"name": "Tomatoes",
 			"id": "tomatoes",
-			"url": ""
+			"url": "http://www.moes.com/public/images/food/ingredients/diced-tomatoes.jpg"
     },
 		{
 			"name": "Mushrooms",
 			"id": "mushrooms",
-			"url": ""
+			"url": "http://www.moes.com/public/images/food/ingredients/grilled-mushrooms.jpg"
     },
 		{
 			"name": "Garlic",
@@ -103,12 +103,12 @@
 		{
 			"name": "Beef",
 			"id": "beef",
-			"url": ""
+			"url": "http://www.moes.com/public/images/food/ingredients/ground-beef.jpg"
     },
 		{
 			"name": "Philly Steak",
 			"id": "philly_steak",
-			"url": ""
+			"url": "http://www.moes.com/public/images/food/ingredients/grilled-steak.jpg"
     },
 		{
 			"name": "Ham",
@@ -118,7 +118,7 @@
 		{
 			"name": "Bacon",
 			"id": "bacon",
-			"url": ""
+			"url": "http://www.moes.com/public/images/food/ingredients/bacon.jpg"
     },
 		{
 			"name": "Salami",
@@ -128,7 +128,7 @@
 		{
 			"name": "Chicken",
 			"id": "chicken",
-			"url": ""
+			"url": "http://www.moes.com/public/images/food/ingredients/grilled-chicken.jpg"
     }
   ],
 	"cheeses": [
