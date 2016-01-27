@@ -3,36 +3,43 @@
 		{
 			"name": "Tomatoe Sauce",
 			"id": "tomatoe_sauce",
+			"type": "sauces",
 			"url": ""
     },
 		{
 			"name": "Bechamel",
 			"id": "bechamel",
+			"type": "sauces",
 			"url": ""
     },
 		{
 			"name": "Pesto",
 			"id": "pesto",
+			"type": "sauces",
 			"url": ""
     },
 		{
 			"name": "BBQ Sauce",
 			"id": "bbq_sauce",
+			"type": "sauces",
 			"url": ""
     },
 		{
 			"name": "Hummus",
 			"id": "hummus",
+			"type": "sauces",
 			"url": ""
     },
 		{
 			"name": "Ranch Sauce",
 			"id": "ranch_sauce",
+			"type": "sauces",
 			"url": ""
     },
 		{
 			"name": "Soy-Miso Sauce",
 			"id": "soy_miso_sauce",
+			"type": "sauces",
 			"url": ""
     }
   ],
@@ -40,51 +47,61 @@
 		{
 			"name": "Red Onions",
 			"id": "red_onions",
+			"type": "vegetables",
 			"url": "http://internationalproduceexchange.com/media/catalog/product/cache/1/image/400x/9df78eab33525d08d6e5fb8d27136e95/7/_/7.jpg"
     },
 		{
 			"name": "White Onions",
 			"id": "white_onions",
+			"type": "vegetables",
 			"url": "http://www.moes.com/public/images/food/ingredients/diced-onions.jpg"
     },
 		{
 			"name": "Black Olives",
 			"id": "black_olives",
+			"type": "vegetables",
 			"url": "http://www.moes.com/public/images/food/ingredients/black-olives.jpg"
     },
 		{
 			"name": "Spiniach",
 			"id": "spiniach",
+			"type": "vegetables",
 			"url": "http://www.foodnutritiontable.com/_lib/img/prod/big/spinaziebereid.jpg"
     },
 		{
 			"name": "Green Peppers",
 			"id": "green_peppers",
+			"type": "vegetables",
 			"url": "http://www.moes.com/public/images/food/ingredients/grilled-peppers.jpg"
     },
 		{
 			"name": "Tomatoes",
 			"id": "tomatoes",
+			"type": "vegetables",
 			"url": "http://www.moes.com/public/images/food/ingredients/diced-tomatoes.jpg"
     },
 		{
 			"name": "Mushrooms",
 			"id": "mushrooms",
+			"type": "vegetables",
 			"url": "http://www.moes.com/public/images/food/ingredients/grilled-mushrooms.jpg"
     },
 		{
 			"name": "Garlic",
 			"id": "garlic",
+			"type": "vegetables",
 			"url": ""
     },
 		{
 			"name": "Egg Plant",
 			"id": "egg_plant",
+			"type": "vegetables",
 			"url": ""
     },
 		{
 			"name": "Pineapple",
 			"id": "pineapple",
+			"type": "vegetables",
 			"url": ""
     }
 
@@ -93,21 +110,19 @@
 		{
 			"name": "Pepperoni",
 			"id": "pepperoni",
-			"url": ""
-    },
-		{
-			"name": "Italian Sausage",
-			"id": "italian_sausage",
+			"type": "meats",
 			"url": ""
     },
 		{
 			"name": "Beef",
 			"id": "beef",
+			"type": "meats",
 			"url": "http://www.moes.com/public/images/food/ingredients/ground-beef.jpg"
     },
 		{
 			"name": "Philly Steak",
 			"id": "philly_steak",
+			"type": "meats",
 			"url": "http://www.moes.com/public/images/food/ingredients/grilled-steak.jpg"
     },
 		{
@@ -118,16 +133,19 @@
 		{
 			"name": "Bacon",
 			"id": "bacon",
+			"type": "meats",
 			"url": "http://www.moes.com/public/images/food/ingredients/bacon.jpg"
     },
 		{
 			"name": "Salami",
 			"id": "salami",
-			"url": ""
+			"type": "meats",
+			"url": "https://www.cookingplanit.com/public/uploads/inventory/salami_1351532585.jpg"
     },
 		{
 			"name": "Chicken",
 			"id": "chicken",
+			"type": "meats",
 			"url": "http://www.moes.com/public/images/food/ingredients/grilled-chicken.jpg"
     }
   ],
@@ -135,27 +153,32 @@
 		{
 			"name": "Cheddar",
 			"id": "cheddar",
+			"type": "cheeses",
 			"url": ""
     },
 		{
 			"name": "Feta",
 			"id": "feta",
+			"type": "cheeses",
 			"url": ""
     },
 		{
 			"name": "Parmesan",
 			"id": "parmesan",
+			"type": "cheeses",
 			"url": ""
     },
 		{
 			"name": "Provolone",
 			"id": "provolone",
-			"url": ""
+			"type": "cheeses",
+			"url": "http://ecx.images-amazon.com/images/I/31PCDQb4KsL.01._SR300,300_.jpg"
     },
 		{
 			"name": "Blue Cheese",
 			"id": "blue_cheese",
-			"url": ""
+			"type": "cheeses",
+			"url": "http://blog.onespotallergy.com/wp-content/uploads/2012/01/Royal_Stilton_Cheese.jpg"
     }
   ]
 }
