@@ -1,7 +1,7 @@
 var topping_template = function (id, name, url, type) {
-	var top = '<input type="checkbox" id="' + id + '" class="topping_check"><img src="' + url + '">' + name + '</input>'
+	var top = '<input type="checkbox" id="' + id + '" class="topping_check"><img src="' + url + '">' + name + '</input>';
 	for (var i = 0; i < 4; i += 1) {
-		top += '<label class="radio_group"><input type="radio" class="radio" name="topping' + (i + 1) + '" value="' + i + '"/><img src="/RadBut/radio' + i + '.png"></label>'
+		top += '<label class="radio_group"><input type="radio" class="radio" name="' + id + '" value="' + i + '"/><img src="/RadBut/radio' + i + '.png"></label>';
 	}
 	return top + '</br>';
 };
@@ -55,11 +55,3 @@ $(document).ready(function () {
 		checkbox_click(obj);
 	}
 });
-
-function checkbox_click(current) {
-	if ($(current).is(':checked')) {
-		$('.radio_group').togge();
-	} else {
-		// do stuff....
-	}
-}
