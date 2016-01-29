@@ -34,10 +34,8 @@ var selectRadio = function (id, side) {
 		if (i == side) {
 			$(id + i).prop("checked", true);
 		}
-
 	}
-
-}
+};
 
 $('#pizzas').selectmenu({
 	select: function (event, ui) {
@@ -45,33 +43,26 @@ $('#pizzas').selectmenu({
 		for (pizza of globle_pizzas) {
 			if ($item.value === pizza.value) {
 				//sauce group
-				selectRadio("#tomatoe_sauce", pizza.toppings.sauces.tomatoe_sauce.side)
-				$('#tomatoe_sauce').prop("checked", pizza.toppings.sauces.tomatoe_sauce.enabled);
-				$('#bechamel').prop("checked", pizza.toppings.sauces.bechamel.enabled);
-				$('#pesto').prop("checked", pizza.toppings.sauces.pesto.enabled);
-				$('#bbq_sauce').prop("checked", pizza.toppings.sauces.bbq_sauce.enabled);
-				$('#hummus').prop("checked", pizza.toppings.sauces.hummus.enabled);
-				$('#ranch_sauce').prop("checked", pizza.toppings.sauces.ranch_sauce.enabled);
-				$('#soy_miso_sauce').prop("checked", pizza.toppings.sauces.soy_miso_sauce.enabled);
+				selectRadio('#sauces', pizza.sauce);
 				//meat group
-				$('#pepperoni').prop("checked", pizza.toppings.meats.pepperoni.enabled);
-				$('#italian_sausage').prop("checked", pizza.toppings.meats.italian_sausage.enabled);
-				$('#beef').prop("checked", pizza.toppings.meats.beef.enabled);
-				$('#ham').prop("checked", pizza.toppings.meats.ham.enabled);
-				$('#bacon').prop("checked", pizza.toppings.meats.bacon.enabled);
-				$('#chicken').prop("checked", pizza.toppings.meats.chicken.enabled);
-				//vegetable group
-				$('#red_onions').prop("checked", pizza.toppings.vegetables.red_onions.enabled);
-				$('#black_olives').prop("checked", pizza.toppings.vegetables.black_olives.enabled);
-				$('#green_peppers').prop("checked", pizza.toppings.vegetables.green_peppers.enabled);
-				$('#tomatoes').prop("checked", pizza.toppings.vegetables.tomatoes.enabled);
-				$('#mushrooms').prop("checked", pizza.toppings.vegetables.mushrooms.enabled);
-				$('#pineapple').prop("checked", pizza.toppings.vegetables.pineapple.enabled);
+				selectRadio("#pepperoni", pizza.toppings.meats.pepperoni.side)
+				selectRadio("#italian_sausage", pizza.toppings.meats.italian_sausage.side)
+				selectRadio("#beef", pizza.toppings.meats.beef.side)
+				selectRadio("#ham", pizza.toppings.meats.ham.side)
+				selectRadio("#bacon", pizza.toppings.meats.bacon.side)
+				selectRadio("#chicken", pizza.toppings.meats.chicken.side)
+					//vegetable group
+				selectRadio('#red_onions', pizza.toppings.vegetables.red_onions.side);
+				selectRadio('#black_olives', pizza.toppings.vegetables.black_olives.side);
+				selectRadio('#green_peppers', pizza.toppings.vegetables.green_peppers.side);
+				selectRadio('#tomatoes', pizza.toppings.vegetables.tomatoes.side);
+				selectRadio('#mushrooms', pizza.toppings.vegetables.mushrooms.side);
+				selectRadio('#pineapple', pizza.toppings.vegetables.pineapple.side);
 				//cheese group
-				$('#cheddar').prop("checked", pizza.toppings.cheeses.cheddar.enabled);
-				$('#feta').prop("checked", pizza.toppings.cheeses.feta.enabled);
-				$('#provolone').prop("checked", pizza.toppings.cheeses.provolone.enabled);
-				$('#blue_cheese').prop("checked", pizza.toppings.cheeses.blue_cheese.enabled);
+				selectRadio('#cheddar', pizza.toppings.cheeses.cheddar.side);
+				selectRadio('#feta', pizza.toppings.cheeses.feta.side);
+				selectRadio('#provolone', pizza.toppings.cheeses.provolone.side);
+				selectRadio('#blue_cheese', pizza.toppings.cheeses.blue_cheese.side);
 			}
 		}
 	}

@@ -4,32 +4,9 @@
 			"name": "Custom Pizza",
 			"size": 3,
 			"value": "custom_pizza",
+			"sauce": 0,
 			"toppings": {
-				"sauces": {
-					"tomatoe_sauce": {
-						"side": 0
-					},
-					"bechamel": {
-						"side": 0
-					},
-					"pesto": {
-						"side": 0
-					},
-					"bbq_sauce": {
-						"side": 0
-					},
-					"hummus": {
 
-						"side": 0
-					},
-					"ranch_sauce": {
-						"side": 0
-					},
-					"soy_miso_sauce": {
-
-						"side": 0
-					}
-				},
 				"vegetables": {
 					"red_onions": {
 
@@ -139,37 +116,8 @@
 			"name": "Pepperoni Pizza",
 			"size": 3,
 			"value": "pepperoni_pizza",
+			"sauce": 0,
 			"toppings": {
-				"sauces": {
-					"tomatoe_sauce": {
-
-						"side": 3
-					},
-					"bechamel": {
-
-						"side": 0
-					},
-					"pesto": {
-
-						"side": 0
-					},
-					"bbq_sauce": {
-
-						"side": 0
-					},
-					"hummus": {
-
-						"side": 0
-					},
-					"ranch_sauce": {
-
-						"side": 0
-					},
-					"soy_miso_sauce": {
-
-						"side": 0
-					}
-				},
 				"vegetables": {
 					"red_onions": {
 
@@ -215,7 +163,6 @@
 				},
 				"meats": {
 					"pepperoni": {
-						"enabled": true,
 						"side": 3
 					},
 					"italian_sausage": {
@@ -279,37 +226,8 @@
 			"name": "4 Cheese Pizza",
 			"size": 3,
 			"value": "four_cheese_pizza",
+			"sauce": 0,
 			"toppings": {
-				"sauces": {
-					"tomatoe_sauce": {
-
-						"side": 3
-					},
-					"bechamel": {
-
-						"side": 0
-					},
-					"pesto": {
-
-						"side": 0
-					},
-					"bbq_sauce": {
-
-						"side": 0
-					},
-					"hummus": {
-
-						"side": 0
-					},
-					"ranch_sauce": {
-
-						"side": 0
-					},
-					"soy_miso_sauce": {
-
-						"side": 0
-					}
-				},
 				"vegetables": {
 					"red_onions": {
 
@@ -397,6 +315,5 @@
 
 				}
 			}
-	}
-	]
+	}]
 }

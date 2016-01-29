@@ -5,11 +5,17 @@ var topping_template = function (id, name, url, type) {
 	}
 	return top + '</div></br>';
 };
+
+var sauces_template = function (name, num) {
+	return '<label class="radio_group"><input type="radio" id="sauces' + num + '" class="radio" name="sauces" value="' + num + '"/><h4>' + name + '</h4></label>';
+};
+
 var load_sauces = function (sauces) {
 	for (sauce of sauces) {
-		$('#sauces').append(topping_template(sauce.id, sauce.name, sauce.url, sauce.type));
+		$('#sauces').append(sauces_template(sauce.name, 0));
 	}
 };
+
 var load_vegetables = function (vegetables) {
 	for (vegetable of vegetables) {
 		$('#vegetables').append(topping_template(vegetable.id, vegetable.name, vegetable.url, vegetable.type))
