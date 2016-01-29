@@ -1,34 +1,73 @@
-.tabs {
-    width: 456px;
-    height: 400px;
+body {
+    background-color: black;
 }
 
-#pizza {
-    background-color: purple;
+.tabs {
+    float: left;
+    width: 456px;
+    height: 400px;
+    margin-left: 20px;
+}
+
+#absoluteDiv {
+    position: absolute;
+    right: 50%;
+}
+
+#centerDiv {
+    top: 50px;
+    position: relative;
+    right: -51%;
+    background-color: slategray;
     width: 500px;
     height: 500px;
 }
 
+#pizza {
+    background-color: brown;
+    height: 87%;
+}
+
 #reciept {
-    background-color: grey;
+    float: right;
     width: 456px;
     height: 400px;
+    margin-right: 20px;
+    background-color: aqua;
 }
 
 #topTitle {
-    background-color: red;
-    height: 40px;
-}
-
-#topBlock {
-    height: 100px;
+    background-color: burlywood;
 }
 
 #priceTitle {
-    background-color: red;
-    height: 40px;
+    background-color: burlywood;
 }
 
-#priceBlock {
-    height: 100px;
+@media (max-width: 1510px) {
+    body {
+        width: 1500px;
+    }
+    #reciept {
+        float: none;
+        vertical-align: top;
+        display: inline-block;
+        margin-top: 30px;
+        margin-right: 0px;
+    }
+    .tabs {
+        float: none;
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    #absoluteDiv {
+        position: static;
+        display: inline-block;
+        margin-top: 30px;
+    }
+    #centerDiv {
+        position: static;
+    }
 }
