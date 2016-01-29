@@ -5,9 +5,14 @@ body {
 .tabs {
     float: left;
     width: 500px;
-    height: 600px;
+    max-height: 600px;
     margin-left: 20px;
+    overflow: hidden;
+}
+
+.tabbody {
     overflow: scroll;
+    max-height: 600px;
 }
 
 #absoluteDiv {
