@@ -4,9 +4,10 @@ body {
 
 .tabs {
     float: left;
-    width: 456px;
-    height: 400px;
+    width: 500px;
+    height: 600px;
     margin-left: 20px;
+    overflow: scroll;
 }
 
 #absoluteDiv {
@@ -30,7 +31,7 @@ body {
 
 #reciept {
     float: right;
-    width: 456px;
+    width: 400px;
     height: 400px;
     margin-right: 20px;
     background-color: aqua;
