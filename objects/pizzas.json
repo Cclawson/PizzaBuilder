@@ -7,131 +7,126 @@
 			"toppings": {
 				"sauces": {
 					"tomatoe_sauce": {
-						"enabled": false,
 						"side": 0
 					},
 					"bechamel": {
-						"enabled": false,
 						"side": 0
 					},
 					"pesto": {
-						"enabled": false,
 						"side": 0
 					},
 					"bbq_sauce": {
-						"enabled": false,
 						"side": 0
 					},
 					"hummus": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"ranch_sauce": {
-						"enabled": false,
 						"side": 0
 					},
 					"soy_miso_sauce": {
-						"enabled": false,
+
 						"side": 0
 					}
 				},
 				"vegetables": {
 					"red_onions": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"white_onions": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"black_olives": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"spiniach": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"green_peppers": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"tomatoes": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"mushrooms": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"garlic": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"egg_plant": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"pineapple": {
-						"enabled": false,
+
 						"side": 0
 					}
 
 				},
 				"meats": {
 					"pepperoni": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"italian_sausage": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"beef": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"philly_steak": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"ham": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"bacon": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"salami": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"chicken": {
-						"enabled": false,
+
 						"side": 0
 					}
 
 				},
 				"cheeses": {
 					"cheddar": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"feta": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"parmesan": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"provolone": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"blue_cheese": {
-						"enabled": false,
+
 						"side": 0
 					}
 
@@ -147,73 +142,73 @@
 			"toppings": {
 				"sauces": {
 					"tomatoe_sauce": {
-						"enabled": false,
+
 						"side": 3
 					},
 					"bechamel": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"pesto": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"bbq_sauce": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"hummus": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"ranch_sauce": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"soy_miso_sauce": {
-						"enabled": false,
+
 						"side": 0
 					}
 				},
 				"vegetables": {
 					"red_onions": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"white_onions": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"black_olives": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"spiniach": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"green_peppers": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"tomatoes": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"mushrooms": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"garlic": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"egg_plant": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"pineapple": {
-						"enabled": false,
+
 						"side": 0
 					}
 
@@ -224,54 +219,54 @@
 						"side": 3
 					},
 					"italian_sausage": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"beef": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"philly_steak": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"ham": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"bacon": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"salami": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"chicken": {
-						"enabled": false,
+
 						"side": 0
 					}
 
 				},
 				"cheeses": {
 					"cheddar": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"feta": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"parmesan": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"provolone": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"blue_cheese": {
-						"enabled": false,
+
 						"side": 0
 					}
 
@@ -281,137 +276,122 @@
 
 	},
 		{
-			"name": "5 Cheese Pizza",
+			"name": "4 Cheese Pizza",
 			"size": 3,
-			"value": "five_cheese_pizza",
+			"value": "four_cheese_pizza",
 			"toppings": {
 				"sauces": {
 					"tomatoe_sauce": {
-						"enabled": false,
+
 						"side": 3
 					},
 					"bechamel": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"pesto": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"bbq_sauce": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"hummus": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"ranch_sauce": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"soy_miso_sauce": {
-						"enabled": false,
+
 						"side": 0
 					}
 				},
 				"vegetables": {
 					"red_onions": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"white_onions": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"black_olives": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"spiniach": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"green_peppers": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"tomatoes": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"mushrooms": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"garlic": {
-						"enabled": false,
+
 						"side": 0
 					},
 					"egg_plant": {
-						"enabled": false,
 						"side": 0
 					},
 					"pineapple": {
-						"enabled": false,
 						"side": 0
 					}
 
 				},
 				"meats": {
 					"pepperoni": {
-						"enabled": false,
 						"side": 0
 					},
 					"italian_sausage": {
-						"enabled": false,
 						"side": 0
 					},
 					"beef": {
-						"enabled": false,
 						"side": 0
 					},
 					"philly_steak": {
-						"enabled": false,
 						"side": 0
 					},
 					"ham": {
-						"enabled": false,
 						"side": 0
 					},
 					"bacon": {
-						"enabled": false,
 						"side": 0
 					},
 					"salami": {
-						"enabled": false,
 						"side": 0
 					},
 					"chicken": {
-						"enabled": false,
 						"side": 0
 					}
 
 				},
 				"cheeses": {
 					"cheddar": {
-						"enabled": true,
 						"side": 3
 					},
 					"feta": {
-						"enabled": true,
 						"side": 3
 					},
 					"parmesan": {
-						"enabled": true,
 						"side": 3
 					},
 					"provolone": {
-						"enabled": true,
 						"side": 3
 					},
 					"blue_cheese": {
-						"enabled": true,
 						"side": 3
 					}
 

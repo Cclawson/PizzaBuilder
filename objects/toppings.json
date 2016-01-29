@@ -51,22 +51,10 @@
 			"url": "http://internationalproduceexchange.com/media/catalog/product/cache/1/image/400x/9df78eab33525d08d6e5fb8d27136e95/7/_/7.jpg"
     },
 		{
-			"name": "White Onions",
-			"id": "white_onions",
-			"type": "vegetables",
-			"url": "http://www.moes.com/public/images/food/ingredients/diced-onions.jpg"
-    },
-		{
 			"name": "Black Olives",
 			"id": "black_olives",
 			"type": "vegetables",
 			"url": "http://www.moes.com/public/images/food/ingredients/black-olives.jpg"
-    },
-		{
-			"name": "Spiniach",
-			"id": "spiniach",
-			"type": "vegetables",
-			"url": "http://www.foodnutritiontable.com/_lib/img/prod/big/spinaziebereid.jpg"
     },
 		{
 			"name": "Green Peppers",
@@ -85,18 +73,6 @@
 			"id": "mushrooms",
 			"type": "vegetables",
 			"url": "http://www.moes.com/public/images/food/ingredients/grilled-mushrooms.jpg"
-    },
-		{
-			"name": "Garlic",
-			"id": "garlic",
-			"type": "vegetables",
-			"url": ""
-    },
-		{
-			"name": "Egg Plant",
-			"id": "egg_plant",
-			"type": "vegetables",
-			"url": ""
     },
 		{
 			"name": "Pineapple",
@@ -119,12 +95,7 @@
 			"type": "meats",
 			"url": "http://www.moes.com/public/images/food/ingredients/ground-beef.jpg"
     },
-		{
-			"name": "Philly Steak",
-			"id": "philly_steak",
-			"type": "meats",
-			"url": "http://www.moes.com/public/images/food/ingredients/grilled-steak.jpg"
-    },
+
 		{
 			"name": "Ham",
 			"id": "ham",
@@ -135,12 +106,6 @@
 			"id": "bacon",
 			"type": "meats",
 			"url": "http://www.moes.com/public/images/food/ingredients/bacon.jpg"
-    },
-		{
-			"name": "Salami",
-			"id": "salami",
-			"type": "meats",
-			"url": "https://www.cookingplanit.com/public/uploads/inventory/salami_1351532585.jpg"
     },
 		{
 			"name": "Chicken",
@@ -159,12 +124,6 @@
 		{
 			"name": "Feta",
 			"id": "feta",
-			"type": "cheeses",
-			"url": ""
-    },
-		{
-			"name": "Parmesan",
-			"id": "parmesan",
 			"type": "cheeses",
 			"url": ""
     },

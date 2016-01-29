@@ -1,9 +1,9 @@
 var topping_template = function (id, name, url, type) {
-	var top = '<input type="checkbox" id="' + id + '" class="topping_check"><img src="' + url + '">' + name + '</input>';
+	var top = '<div id="' + id + '" class="topping"><img class="topping_image" src="' + url + '"><h4 class="topping_name">' + name + '</h4>';
 	for (var i = 0; i < 4; i += 1) {
-		top += '<label class="radio_group"><input type="radio" class="radio" name="' + id + '" value="' + i + '"/><img src="/RadBut/radio' + i + '.png"></label>';
+		top += '<label class="radio_group"><input type="radio" id="' + id + i + '" class="radio" name="' + id + '" value="' + i + '"/><img src="/RadBut/radio' + i + '.png"></label>';
 	}
-	return top + '</br>';
+	return top + '</div></br>';
 };
 var load_sauces = function (sauces) {
 	for (sauce of sauces) {

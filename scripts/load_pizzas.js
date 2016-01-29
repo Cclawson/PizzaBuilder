@@ -29,6 +29,15 @@ var ajax_options = {
 
 $.ajax(ajax_options);
 
+var selectRadio = function (id, side) {
+	for (var i = 0; i < 4; i += 1) {
+		if (i == side) {
+			$(id + i).prop("checked", true);
+		}
+
+	}
+
+}
 
 $('#pizzas').selectmenu({
 	select: function (event, ui) {
@@ -36,6 +45,7 @@ $('#pizzas').selectmenu({
 		for (pizza of globle_pizzas) {
 			if ($item.value === pizza.value) {
 				//sauce group
+				selectRadio("#tomatoe_sauce", pizza.toppings.sauces.tomatoe_sauce.side)
 				$('#tomatoe_sauce').prop("checked", pizza.toppings.sauces.tomatoe_sauce.enabled);
 				$('#bechamel').prop("checked", pizza.toppings.sauces.bechamel.enabled);
 				$('#pesto').prop("checked", pizza.toppings.sauces.pesto.enabled);
@@ -47,26 +57,19 @@ $('#pizzas').selectmenu({
 				$('#pepperoni').prop("checked", pizza.toppings.meats.pepperoni.enabled);
 				$('#italian_sausage').prop("checked", pizza.toppings.meats.italian_sausage.enabled);
 				$('#beef').prop("checked", pizza.toppings.meats.beef.enabled);
-				$('#philly_steak').prop("checked", pizza.toppings.meats.philly_steak.enabled);
 				$('#ham').prop("checked", pizza.toppings.meats.ham.enabled);
 				$('#bacon').prop("checked", pizza.toppings.meats.bacon.enabled);
-				$('#salami').prop("checked", pizza.toppings.meats.salami.enabled);
 				$('#chicken').prop("checked", pizza.toppings.meats.chicken.enabled);
 				//vegetable group
 				$('#red_onions').prop("checked", pizza.toppings.vegetables.red_onions.enabled);
-				$('#white_onions').prop("checked", pizza.toppings.vegetables.white_onions.enabled);
 				$('#black_olives').prop("checked", pizza.toppings.vegetables.black_olives.enabled);
-				$('#spiniach').prop("checked", pizza.toppings.vegetables.spiniach.enabled);
 				$('#green_peppers').prop("checked", pizza.toppings.vegetables.green_peppers.enabled);
 				$('#tomatoes').prop("checked", pizza.toppings.vegetables.tomatoes.enabled);
 				$('#mushrooms').prop("checked", pizza.toppings.vegetables.mushrooms.enabled);
-				$('#garlic').prop("checked", pizza.toppings.vegetables.garlic.enabled);
-				$('#egg_plant').prop("checked", pizza.toppings.vegetables.egg_plant.enabled);
 				$('#pineapple').prop("checked", pizza.toppings.vegetables.pineapple.enabled);
 				//cheese group
 				$('#cheddar').prop("checked", pizza.toppings.cheeses.cheddar.enabled);
 				$('#feta').prop("checked", pizza.toppings.cheeses.feta.enabled);
-				$('#parmesan').prop("checked", pizza.toppings.cheeses.parmesan.enabled);
 				$('#provolone').prop("checked", pizza.toppings.cheeses.provolone.enabled);
 				$('#blue_cheese').prop("checked", pizza.toppings.cheeses.blue_cheese.enabled);
 			}
