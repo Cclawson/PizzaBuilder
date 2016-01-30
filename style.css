@@ -77,3 +77,84 @@ body {
         position: static;
     }
 }
+
+.rad0 > input,
+.rad1 > input,
+.rad2 > input,
+.rad3 > input {
+    /* HIDE ORG RADIO & CHECKBOX */
+    
+    visibility: hidden;
+    position: absolute;
+}
+/* RADIO & CHECKBOX STYLES */
+
+.rad0 > i,
+.rad1 > i,
+.rad2 > i,
+.rad3 > i {
+    /* DEFAULT <i> STYLE */
+    
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    transition: 0.2s;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 7px #fff;
+    border: 1px solid gray;
+    margin-left: 5px;
+}
+
+.rad0 > i {
+    background-image: url("RadBut/radio0.png");
+}
+
+.rad1 > i {
+    background-image: url("RadBut/radio1.png");
+}
+
+.rad2 > i {
+    background-image: url("RadBut/radio2.png");
+}
+
+.rad3 > i {
+    background-image: url("RadBut/radio3.png");
+}
+/* CHECKBOX OVERWRITE STYLES */
+
+.rad0:hover > i,
+.rad1:hover > i,
+.rad2:hover > i,
+.rad3:hover > i {
+    /* HOVER <i> STYLE */
+    
+    box-shadow: inset 0 0 0 3px #fff;
+    */
+}
+
+.rad0 > input:checked + i {
+    /* (RADIO CHECKED) <i> STYLE */
+    
+    box-shadow: inset 0 0 0 3px #fff;
+    background-image: url("RadBut/radio0-selected.png");
+    border: 1px solid red;
+}
+
+.rad1 > input:checked + i {
+    box-shadow: inset 0 0 0 3px #fff;
+    background-image: url("RadBut/radio1-selected.png");
+    border: 1px solid red;
+}
+
+.rad2 > input:checked + i {
+    box-shadow: inset 0 0 0 3px #fff;
+    background-image: url("RadBut/radio2-selected.png");
+    border: 1px solid red;
+}
+
+.rad3 > input:checked + i {
+    box-shadow: inset 0 0 0 3px #fff;
+    background-image: url("RadBut/radio3-selected.png");
+    border: 1px solid red;
+}
