@@ -82,19 +82,14 @@ body {
 .rad1 > input,
 .rad2 > input,
 .rad3 > input {
-    /* HIDE ORG RADIO & CHECKBOX */
-    
     visibility: hidden;
     position: absolute;
 }
-/* RADIO & CHECKBOX STYLES */
 
 .rad0 > i,
 .rad1 > i,
 .rad2 > i,
 .rad3 > i {
-    /* DEFAULT <i> STYLE */
-    
     display: inline-block;
     vertical-align: middle;
     width: 30px;
@@ -121,21 +116,16 @@ body {
 .rad3 > i {
     background-image: url("RadBut/radio3.png");
 }
-/* CHECKBOX OVERWRITE STYLES */
 
 .rad0:hover > i,
 .rad1:hover > i,
 .rad2:hover > i,
 .rad3:hover > i {
-    /* HOVER <i> STYLE */
-    
     box-shadow: inset 0 0 0 3px #fff;
     */
 }
 
 .rad0 > input:checked + i {
-    /* (RADIO CHECKED) <i> STYLE */
-    
     box-shadow: inset 0 0 0 3px #fff;
     background-image: url("RadBut/radio0-selected.png");
     border: 1px solid red;
