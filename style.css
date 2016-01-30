@@ -1,83 +1,82 @@
 body {
-    background-color: black;
+	background-color: black;
 }
 
 .tabs {
-    float: left;
-    width: 500px;
-    max-height: 600px;
-    margin-left: 20px;
-    overflow: hidden;
+	float: left;
+	width: 500px;
+	max-height: 600px;
+	margin-left: 20px;
+	overflow: hidden;
 }
 
 .tabbody {
-    overflow: scroll;
-    max-height: 700px;
+	overflow: scroll;
+	max-height: 700px;
 }
 
 #absoluteDiv {
-    position: absolute;
-    right: 50%;
+	position: absolute;
+	right: 50%;
 }
 
 #centerDiv {
-    top: 50px;
-    position: relative;
-    right: -51%;
-    background-color: slategray;
-    width: 500px;
-    height: 500px;
+	top: 50px;
+	position: relative;
+	right: -51%;
+	background-color: slategray;
+	width: 500px;
+	height: 500px;
 }
 
 #pizza {
-    background-color: brown;
-    height: 87%;
+	background-color: brown;
+	height: 87%;
 }
 
 #reciept {
-    float: right;
-    width: 400px;
-    height: 400px;
-    margin-right: 20px;
-    background-color: aqua;
+	float: right;
+	width: 400px;
+	height: 400px;
+	margin-right: 20px;
+	background-color: aqua;
 }
 
 #topTitle {
-    background-color: burlywood;
+	background-color: burlywood;
 }
 
 #priceTitle {
-    background-color: burlywood;
+	background-color: burlywood;
 }
 
 @media (max-width: 1510px) {
-    body {
-        width: 1500px;
-    }
-    #reciept {
-        float: none;
-        vertical-align: top;
-        display: inline-block;
-        margin-top: 30px;
-        margin-right: 0px;
-    }
-    .tabs {
-        float: none;
-        display: inline-block;
-        vertical-align: top;
-        margin-top: 30px;
-        margin-left: 30px;
-    }
-    #absoluteDiv {
-        position: static;
-        display: inline-block;
-        margin-top: 30px;
-    }
-    #centerDiv {
-        position: static;
-    }
+	body {
+		width: 1500px;
+	}
+	#reciept {
+		float: none;
+		vertical-align: top;
+		display: inline-block;
+		margin-top: 30px;
+		margin-right: 0px;
+	}
+	.tabs {
+		float: none;
+		display: inline-block;
+		vertical-align: top;
+		margin-top: 30px;
+		margin-left: 30px;
+	}
+	#absoluteDiv {
+		position: static;
+		display: inline-block;
+		margin-top: 30px;
+	}
+	#centerDiv {
+		position: static;
+	}
 }
-
 .rad0 > input,
 .rad1 > input,
 .rad2 > input,
