@@ -5,6 +5,7 @@ var topping_template = function (id, name, url, type) {
     for (var i = 1; i < 4; i += 1) {
         top += '<label class="rad' + i + '"><input type="radio" id="' + id + i + '" class="radio" name="topping' + counter + '" value="' + i + '"/><i></i></label>';
     }
+    $("#pizzadiv").append('<img id="topping' + counter + 'img" style="position: absolute; top: 15px; left: 22px;"/>');
     counter++;
     return top + '</div></br>';
 };
