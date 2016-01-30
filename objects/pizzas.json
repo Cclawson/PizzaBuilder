@@ -67,6 +67,334 @@
 					}
 				}
 			}
+    },
+		{
+			"name": "Pepperoni",
+			"size": 3,
+			"value": "pepperoni_pizza",
+			"sauce": 0,
+			"toppings": {
+				"vegetables": {
+					"red_onions": {
+						"side": 0
+					},
+					"white_onions": {
+						"side": 0
+					},
+					"black_olives": {
+						"side": 0
+					},
+					"green_peppers": {
+						"side": 0
+					},
+					"tomatoes": {
+						"side": 0
+					},
+					"mushrooms": {
+						"side": 0
+					},
+					"pineapple": {
+						"side": 0
+					}
+				},
+				"meats": {
+					"pepperoni": {
+						"side": 3
+					},
+					"beef": {
+						"side": 0
+					},
+					"ham": {
+						"side": 0
+					},
+					"bacon": {
+						"side": 0
+					},
+					"chicken": {
+						"side": 0
+					}
+				},
+				"cheeses": {
+					"cheddar": {
+						"side": 0
+					},
+					"feta": {
+						"side": 0
+					},
+					"parmesan": {
+						"side": 0
+					},
+					"provolone": {
+						"side": 0
+					},
+					"blue_cheese": {
+						"side": 0
+					}
+				}
+			}
+    },
+		{
+			"name": "4 Cheese Pizza",
+			"size": 3,
+			"value": "four_cheese_pizza",
+			"sauce": 0,
+			"toppings": {
+				"vegetables": {
+					"red_onions": {
+						"side": 0
+					},
+					"white_onions": {
+						"side": 0
+					},
+					"black_olives": {
+						"side": 0
+					},
+					"green_peppers": {
+						"side": 0
+					},
+					"tomatoes": {
+						"side": 0
+					},
+					"mushrooms": {
+						"side": 0
+					},
+					"pineapple": {
+						"side": 0
+					}
+				},
+				"meats": {
+					"pepperoni": {
+						"side": 0
+					},
+					"beef": {
+						"side": 0
+					},
+					"ham": {
+						"side": 0
+					},
+					"bacon": {
+						"side": 0
+					},
+					"chicken": {
+						"side": 0
+					}
+				},
+				"cheeses": {
+					"cheddar": {
+						"side": 3
+					},
+					"feta": {
+						"side": 3
+					},
+					"parmesan": {
+						"side": 3
+					},
+					"provolone": {
+						"side": 3
+					},
+					"blue_cheese": {
+						"side": 3
+					}
+				}
+			}
+    },
+		{
+			"name": "Hawaiian Pizza",
+			"size": 3,
+			"value": "hawaiian_pizza",
+			"sauce": 6,
+			"toppings": {
+				"vegetables": {
+					"red_onions": {
+						"side": 0
+					},
+					"white_onions": {
+						"side": 0
+					},
+					"black_olives": {
+						"side": 0
+					},
+					"green_peppers": {
+						"side": 0
+					},
+					"tomatoes": {
+						"side": 0
+					},
+					"mushrooms": {
+						"side": 0
+					},
+					"pineapple": {
+						"side": 3
+					}
+				},
+				"meats": {
+					"pepperoni": {
+						"side": 0
+					},
+					"beef": {
+						"side": 0
+					},
+					"ham": {
+						"side": 3
+					},
+					"bacon": {
+						"side": 0
+					},
+					"chicken": {
+						"side": 0
+					}
+				},
+				"cheeses": {
+					"cheddar": {
+						"side": 0
+					},
+					"feta": {
+						"side": 0
+					},
+					"parmesan": {
+						"side": 0
+					},
+					"provolone": {
+						"side": 0
+					},
+					"blue_cheese": {
+						"side": 0
+					}
+				}
+			}
+    },
+		{
+			"name": "Meat Lovers Pizza",
+			"size": 3,
+			"value": "meat_lovers_pizza",
+			"sauce": 0,
+			"toppings": {
+				"vegetables": {
+					"red_onions": {
+						"side": 0
+					},
+					"white_onions": {
+						"side": 0
+					},
+					"black_olives": {
+						"side": 0
+					},
+					"green_peppers": {
+						"side": 0
+					},
+					"tomatoes": {
+						"side": 0
+					},
+					"mushrooms": {
+						"side": 0
+					},
+					"pineapple": {
+						"side": 0
+					}
+				},
+				"meats": {
+					"pepperoni": {
+						"side": 3
+					},
+					"beef": {
+						"side": 3
+					},
+					"ham": {
+						"side": 3
+					},
+					"bacon": {
+						"side": 3
+					},
+					"chicken": {
+						"side": 3
+					}
+				},
+				"cheeses": {
+					"cheddar": {
+						"side": 0
+					},
+					"feta": {
+						"side": 0
+					},
+					"parmesan": {
+						"side": 0
+					},
+					"provolone": {
+						"side": 0
+					},
+					"blue_cheese": {
+						"side": 0
+					}
+				}
+			}
+    },
+		{
+			"name": "Vegetarian Pizza",
+			"size": 3,
+			"value": "vegetarian_pizza",
+			"sauce": 0,
+			"toppings": {
+				"vegetables": {
+					"red_onions": {
+						"side": 3
+					},
+					"white_onions": {
+						"side": 3
+					},
+					"black_olives": {
+						"side": 3
+					},
+					"green_peppers": {
+						"side": 3
+					},
+					"tomatoes": {
+						"side": 3
+					},
+					"mushrooms": {
+						"side": 3
+					},
+					"pineapple": {
+						"side": 3
+					}
+				},
+				"meats": {
+					"pepperoni": {
+						"side": 0
+					},
+					"beef": {
+						"side": 0
+					},
+					"ham": {
+						"side": 0
+					},
+					"bacon": {
+						"side": 0
+					},
+					"salami": {
+						"side": 0
+					},
+					"chicken": {
+						"side": 0
+					}
+				},
+				"cheeses": {
+					"cheddar": {
+						"side": 0
+					},
+					"feta": {
+						"side": 0
+					},
+					"parmesan": {
+						"side": 0
+					},
+					"provolone": {
+						"side": 0
+					},
+					"blue_cheese": {
+						"side": 0
+					}
+				}
+			}
     }
   ]
 }
