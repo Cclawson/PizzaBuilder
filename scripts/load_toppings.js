@@ -1,19 +1,23 @@
+var counter = 0;
 var topping_template = function (id, name, url, type) {
     var top = '<div id="' + id + '" class="topping"><img class="topping_image" src="' + url + '"><h4 class="topping_name">' + name + '</h4>';
-    top += '<label class="rad' + 0 + '"><input type="radio" id="' + id + 0 + '" class="radio" name="' + id + '" value="' + 0 + '" checked="checked"/><i></i></label>';
+    top += '<label class="rad' + 0 + '"><input type="radio" id="' + id + 0 + '" class="radio" name="topping' + counter + '" value="' + 0 + '" checked="checked"/><i></i></label>';
     for (var i = 1; i < 4; i += 1) {
-        top += '<label class="rad' + i + '"><input type="radio" id="' + id + i + '" class="radio" name="' + id + '" value="' + i + '"/><i></i></label>';
+        top += '<label class="rad' + i + '"><input type="radio" id="' + id + i + '" class="radio" name="topping' + counter + '" value="' + i + '"/><i></i></label>';
     }
+    counter++;
     return top + '</div></br>';
 };
 
 var sauces_template = function (name, num) {
-    return '<label class="radio_group"><input type="radio" id="sauces' + num + '" class="radio" name="sauces" value="' + num + '"/><h4>' + name + '</h4></label>';
+    return '<tr><td><label class="rad' + 3 + '"><input type="radio" id="sauces' + num + '" class="radio" name="sauces" value="' + num + '"/><i></i></label></td><td><h4 class="sauce">' + name + '</h4><td><tr><br>';
 };
 
 var load_sauces = function (sauces) {
     for (sauce of sauces) {
-        $('#sauces').append(sauces_template(sauce.name, 0));
+        var s = '<table id="saucetable">';
+        s += sauces_template(sauce.name, 0);
+        $('#sauces').append(s += '</table>');
     }
 };
 
@@ -61,4 +65,8 @@ $(document).ready(function () {
     if (found == 1) {
         checkbox_click(obj);
     }
+    var s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.src = 'scripts/script.js';
+    document.body.appendChild(s);
 });

@@ -2,28 +2,30 @@ body {
     background-color: black;
 }
 
+#maincontent {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-top: 100px;
+}
+
 .tabs {
     float: left;
+    margin-left: 10px;
     width: 500px;
-    max-height: 600px;
-    margin-left: 20px;
+    height: 700px;
     overflow: hidden;
 }
 
 .tabbody {
     overflow: scroll;
-    max-height: 700px;
-}
-
-#absoluteDiv {
-    position: absolute;
-    right: 50%;
+    max-height: 600px;
 }
 
 #centerDiv {
-    top: 50px;
-    position: relative;
-    right: -51%;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
     background-color: slategray;
     width: 500px;
     height: 500px;
@@ -35,11 +37,15 @@ body {
 }
 
 #reciept {
-    float: right;
-    width: 400px;
-    height: 400px;
-    margin-right: 20px;
+    margin: auto;
+    width: 500px;
+    height: 700px;
     background-color: aqua;
+    float: left;
+}
+
+#sauces {
+    max-height: 600px;
 }
 
 #topTitle {
@@ -50,31 +56,15 @@ body {
     background-color: burlywood;
 }
 
-@media (max-width: 1510px) {
-    body {
-        width: 1500px;
+@media (max-width: 1200px) {
+    #centerDiv {
+        display: none;
+        visibility: hidden;
     }
     #reciept {
-        float: none;
-        vertical-align: top;
-        display: inline-block;
-        margin-top: 30px;
-        margin-right: 0px;
-    }
-    .tabs {
-        float: none;
-        display: inline-block;
-        vertical-align: top;
-        margin-top: 30px;
-        margin-left: 30px;
-    }
-    #absoluteDiv {
-        position: static;
-        display: inline-block;
-        margin-top: 30px;
-    }
-    #centerDiv {
-        position: static;
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 500px;
     }
 }
 
