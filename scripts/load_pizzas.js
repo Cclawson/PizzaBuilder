@@ -45,7 +45,7 @@ $('#pizzas').selectmenu({
 		for (pizza of globle_pizzas) {
 
 			if ($item.value === pizza.value) {
-				$('#sizes option[value="' + pizza.size + '"]').attr('selected', 'selected');
+//				$('#sizes option[value="' + pizza.size + '"]').attr('selected', 'selected');
 				//sauce group
 				selectRadio('#sauces', pizza.sauce, 7);
 				//meat group
