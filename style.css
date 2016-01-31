@@ -1,5 +1,5 @@
 body {
-	background-color: black;
+    background-color: black;
 }
 
 #maincontent {
@@ -32,8 +32,8 @@ body {
 }
 
 #pizza {
-	background-color: brown;
-	height: 87%;
+    background-color: brown;
+    height: 87%;
 }
 
 #reciept {
@@ -49,11 +49,11 @@ body {
 }
 
 #topTitle {
-	background-color: burlywood;
+    background-color: burlywood;
 }
 
 #priceTitle {
-	background-color: burlywood;
+    background-color: burlywood;
 }
 
 @media (max-width: 1200px) {
@@ -67,6 +67,7 @@ body {
         width: 500px;
     }
 }
+
 .rad0 > input,
 .rad1 > input,
 .rad2 > input,
@@ -136,4 +137,8 @@ body {
     box-shadow: inset 0 0 0 3px #fff;
     background-image: url("RadBut/radio3-selected.png");
     border: 1px solid red;
+}
+
+#sizes {
+    width: 200px;
 }
