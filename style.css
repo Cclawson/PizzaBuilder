@@ -5,15 +5,23 @@ body {
 #maincontent {
     margin-left: auto;
     margin-right: auto;
+    margin-top: 30px;
     width: 90%;
-    margin-top: 100px;
+    padding: 10px;
+    height: 700px;
+    width: 1500px;
+    border-style: solid;
+    border-color: darkred;
+    border-width: 50px;
+    border-radius: 20px;
 }
 
 .tabs {
-    float: left;
+    float: right;
     margin-left: 10px;
-    width: 500px;
-    height: 700px;
+    margin-right: 10px;
+    width: 350px;
+    height: 690px;
     overflow: hidden;
 }
 
@@ -22,26 +30,37 @@ body {
     max-height: 600px;
 }
 
-#centerDiv {
-    float: left;
-    margin-left: 10px;
-    margin-right: 10px;
-    background-color: slategray;
-    width: 500px;
-    height: 500px;
+.topping_image {
+    width: 100px;
+    float: right;
 }
 
-#pizza {
-    background-color: brown;
-    height: 87%;
+#centerDiv {
+    float: left;
+    background-color: slategray;
+    width: 920px;
+    height: 700px;
+}
+
+#pizzadiv {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
+
+#form1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 404px
 }
 
 #reciept {
     margin: auto;
-    width: 500px;
+    width: 200px;
     height: 700px;
-    background-color: aqua;
-    float: left;
+    background-color: lightslategray;
+    float: right;
 }
 
 #sauces {
@@ -49,23 +68,11 @@ body {
 }
 
 #topTitle {
-    background-color: burlywood;
+    background-color: darkred;
 }
 
 #priceTitle {
-    background-color: burlywood;
-}
-
-@media (max-width: 1200px) {
-    #centerDiv {
-        display: none;
-        visibility: hidden;
-    }
-    #reciept {
-        margin-top: 10px;
-        margin-left: 10px;
-        width: 500px;
-    }
+    background-color: darkred;
 }
 
 .rad0 > input,
