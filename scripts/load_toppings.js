@@ -34,17 +34,11 @@ var load_meats = function (meats) {
 		$('#meats').append(topping_template(meat.id, meat.name, meat.url, meat.type))
 	}
 };
-var load_cheeses = function (cheeses) {
-	for (cheese of cheeses) {
-		$('#cheeses').append(topping_template(cheese.id, cheese.name, cheese.url, cheese.type))
-	}
-};
 
 var load_json = function (resp) {
 	load_sauces(resp.sauces);
 	load_vegetables(resp.vegetables);
 	load_meats(resp.meats);
-	load_cheeses(resp.cheeses)
 };
 
 var print_error = function (req, status, err) {
