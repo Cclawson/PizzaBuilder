@@ -61,7 +61,6 @@ $('#pizzas').selectmenu({
 				selectRadio('#tomatoes', pizza.toppings.vegetables.tomatoes.side, 4);
 				selectRadio('#mushrooms', pizza.toppings.vegetables.mushrooms.side, 4);
 				selectRadio('#pineapple', pizza.toppings.vegetables.pineapple.side, 4);
-
 			}
 		}
 	}
