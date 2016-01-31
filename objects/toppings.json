@@ -78,7 +78,7 @@
 			"name": "Pineapple",
 			"id": "pineapple",
 			"type": "vegetables",
-			"url": ""
+			"url": "http://yoggys.com/en/wp-content/uploads/2013/09/pineapple-chunks.jpg"
     }
 
   ],
@@ -87,7 +87,7 @@
 			"name": "Pepperoni",
 			"id": "pepperoni",
 			"type": "meats",
-			"url": ""
+			"url": "https://www.cookingplanit.com/public/uploads/inventory/salami_1351532585.jpg"
     },
 		{
 			"name": "Beef",
@@ -99,7 +99,7 @@
 		{
 			"name": "Ham",
 			"id": "ham",
-			"url": ""
+			"url": "https://www.berksfoods.com/wp-content/uploads/2014/04/ph_food-service-pizza-toppings-diced-ham.png"
     },
 		{
 			"name": "Bacon",
@@ -119,13 +119,13 @@
 			"name": "Cheddar",
 			"id": "cheddar",
 			"type": "cheeses",
-			"url": ""
+			"url": "http://www.jbsitedesigns.com/wp-content/uploads/2010/01/Shredded-Cheddar-Cheese.jpg"
     },
 		{
-			"name": "Feta",
-			"id": "feta",
+			"name": "Mozzarella",
+			"id": "mozzarella",
 			"type": "cheeses",
-			"url": ""
+			"url": "http://images.mexgrocer.com/91155-13806-inset-2.jpg"
     },
 		{
 			"name": "Provolone",
@@ -137,7 +137,7 @@
 			"name": "Blue Cheese",
 			"id": "blue_cheese",
 			"type": "cheeses",
-			"url": "http://blog.onespotallergy.com/wp-content/uploads/2012/01/Royal_Stilton_Cheese.jpg"
+			"url": "http://thumbs.ifood.tv/files/image/04/98/544016-store-crumbled-blue-cheese-for-a-long-time-in-your-refrigerator.jpg"
     }
   ]
 }
