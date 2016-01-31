@@ -10,7 +10,7 @@ div {
 
 #maincontent {
     position: relative;
-    width: 80%;
+    width: 800px;
     height: 400px;
     background: gray;
     margin: auto;
@@ -75,7 +75,7 @@ p {
         margin-left: 0px;
     }
     100% {
-        margin-left: 480px;
+        margin-left: 520px;
     }
 }
 
@@ -84,6 +84,6 @@ p {
         width: 0px;
     }
     100% {
-        width: 480px;
+        width: 520px;
     }
 }
