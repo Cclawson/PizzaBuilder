@@ -61,11 +61,7 @@ $('#pizzas').selectmenu({
 				selectRadio('#tomatoes', pizza.toppings.vegetables.tomatoes.side, 4);
 				selectRadio('#mushrooms', pizza.toppings.vegetables.mushrooms.side, 4);
 				selectRadio('#pineapple', pizza.toppings.vegetables.pineapple.side, 4);
-				//cheese group
-				selectRadio('#cheddar', pizza.toppings.cheeses.cheddar.side, 4);
-				selectRadio('#mozzarella', pizza.toppings.cheeses.mozzarella.side, 4);
-				selectRadio('#provolone', pizza.toppings.cheeses.provolone.side, 4);
-				selectRadio('#blue_cheese', pizza.toppings.cheeses.blue_cheese.side, 4);
+
 			}
 		}
 	}

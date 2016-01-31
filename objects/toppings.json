@@ -113,31 +113,5 @@
 			"type": "meats",
 			"url": "http://www.moes.com/public/images/food/ingredients/grilled-chicken.jpg"
     }
-  ],
-	"cheeses": [
-		{
-			"name": "Cheddar",
-			"id": "cheddar",
-			"type": "cheeses",
-			"url": "http://www.jbsitedesigns.com/wp-content/uploads/2010/01/Shredded-Cheddar-Cheese.jpg"
-    },
-		{
-			"name": "Mozzarella",
-			"id": "mozzarella",
-			"type": "cheeses",
-			"url": "http://images.mexgrocer.com/91155-13806-inset-2.jpg"
-    },
-		{
-			"name": "Provolone",
-			"id": "provolone",
-			"type": "cheeses",
-			"url": "http://ecx.images-amazon.com/images/I/31PCDQb4KsL.01._SR300,300_.jpg"
-    },
-		{
-			"name": "Blue Cheese",
-			"id": "blue_cheese",
-			"type": "cheeses",
-			"url": "http://thumbs.ifood.tv/files/image/04/98/544016-store-crumbled-blue-cheese-for-a-long-time-in-your-refrigerator.jpg"
-    }
   ]
 }

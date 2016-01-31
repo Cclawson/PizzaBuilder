@@ -113,86 +113,52 @@
 					"chicken": {
 						"side": 0
 					}
-				},
-				"cheeses": {
-					"cheddar": {
-						"side": 0
-					},
-					"mozzarella": {
-						"side": 0
-					},
-					"parmesan": {
-						"side": 0
-					},
-					"provolone": {
-						"side": 0
-					},
-					"blue_cheese": {
-						"side": 0
-					}
 				}
 			}
     },
 		{
-			"name": "4 Cheese Pizza",
+			"name": "Everything Pizza",
 			"size": 2,
-			"value": "four_cheese_pizza",
+			"value": "everything_pizza",
 			"sauce": 0,
 			"toppings": {
 				"vegetables": {
 					"red_onions": {
-						"side": 0
+						"side": 3
 					},
 					"white_onions": {
-						"side": 0
+						"side": 3
 					},
 					"black_olives": {
-						"side": 0
+						"side": 3
 					},
 					"green_peppers": {
-						"side": 0
+						"side": 3
 					},
 					"tomatoes": {
-						"side": 0
+						"side": 3
 					},
 					"mushrooms": {
-						"side": 0
+						"side": 3
 					},
 					"pineapple": {
-						"side": 0
+						"side": 3
 					}
 				},
 				"meats": {
 					"pepperoni": {
-						"side": 0
+						"side": 3
 					},
 					"beef": {
-						"side": 0
+						"side": 3
 					},
 					"ham": {
-						"side": 0
+						"side": 3
 					},
 					"bacon": {
-						"side": 0
+						"side": 3
 					},
 					"chicken": {
-						"side": 0
-					}
-				},
-				"cheeses": {
-					"cheddar": {
-						"side": 3
-					},
-					"mozzarella": {
-						"side": 3
-					},
-					"parmesan": {
-						"side": 3
-					},
-					"provolone": {
-						"side": 3
-					},
-					"blue_cheese": {
 						"side": 3
 					}
 				}
@@ -243,23 +209,6 @@
 					"chicken": {
 						"side": 0
 					}
-				},
-				"cheeses": {
-					"cheddar": {
-						"side": 0
-					},
-					"mozzarella": {
-						"side": 0
-					},
-					"parmesan": {
-						"side": 0
-					},
-					"provolone": {
-						"side": 0
-					},
-					"blue_cheese": {
-						"side": 0
-					}
 				}
 			}
     },
@@ -307,23 +256,6 @@
 					},
 					"chicken": {
 						"side": 3
-					}
-				},
-				"cheeses": {
-					"cheddar": {
-						"side": 0
-					},
-					"mozzarella": {
-						"side": 0
-					},
-					"parmesan": {
-						"side": 0
-					},
-					"provolone": {
-						"side": 0
-					},
-					"blue_cheese": {
-						"side": 0
 					}
 				}
 			}
@@ -374,23 +306,6 @@
 						"side": 0
 					},
 					"chicken": {
-						"side": 0
-					}
-				},
-				"cheeses": {
-					"cheddar": {
-						"side": 0
-					},
-					"mozzarella": {
-						"side": 0
-					},
-					"parmesan": {
-						"side": 0
-					},
-					"provolone": {
-						"side": 0
-					},
-					"blue_cheese": {
 						"side": 0
 					}
 				}
