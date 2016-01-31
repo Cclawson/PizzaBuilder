@@ -2,7 +2,7 @@
 	"pizzas": [
 		{
 			"name": "Custom Pizza",
-			"size": 3,
+			"size": 0,
 			"value": "custom_pizza",
 			"sauce": 0,
 			"toppings": {
@@ -70,7 +70,7 @@
     },
 		{
 			"name": "Pepperoni",
-			"size": 3,
+			"size": 2,
 			"value": "pepperoni_pizza",
 			"sauce": 0,
 			"toppings": {
@@ -135,7 +135,7 @@
     },
 		{
 			"name": "4 Cheese Pizza",
-			"size": 3,
+			"size": 2,
 			"value": "four_cheese_pizza",
 			"sauce": 0,
 			"toppings": {
@@ -200,7 +200,7 @@
     },
 		{
 			"name": "Hawaiian Pizza",
-			"size": 3,
+			"size": 2,
 			"value": "hawaiian_pizza",
 			"sauce": 6,
 			"toppings": {
@@ -265,7 +265,7 @@
     },
 		{
 			"name": "Meat Lovers Pizza",
-			"size": 3,
+			"size": 2,
 			"value": "meat_lovers_pizza",
 			"sauce": 0,
 			"toppings": {
@@ -330,7 +330,7 @@
     },
 		{
 			"name": "Vegetarian Pizza",
-			"size": 3,
+			"size": 2,
 			"value": "vegetarian_pizza",
 			"sauce": 0,
 			"toppings": {
