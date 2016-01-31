@@ -76,8 +76,8 @@
         $("#priceBlock").append("<p>Total Price: $" + totaltop + ".00</p>");
     }
 
-
-
-    $('#form1').on('change', 'select', function () {
-        checkprice();
+    $('#sizes').selectmenu({
+        select: function (event, ui) {
+            checkprice();
+        }
     });
