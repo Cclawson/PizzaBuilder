@@ -2,68 +2,68 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <title>Pizza Builder</title>
-    <link rel='stylesheet' type="text/css" href="style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
-
+	<meta charset="utf-8">
+	<title>Pizza Builder</title>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+	<link rel='stylesheet' type="text/css" href="jqueryui.css">
+	<link rel='stylesheet' type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 </head>
 
 <body>
-    <div id="maincontent">
-        <div id="reciept">
-            <div id="topTitle">
-                <h1>Toppings:</h1>
-            </div>
-            <div id="topBlock">
-                <p id="toppings">TOPPINGS HERE</p>
-            </div>
-            <div id="priceTitle">
-                <h1>Price:</h1>
-            </div>
-            <div id="priceBlock">
-                <p id="price">PRICE HERE</p>
-            </div>
-        </div>
-        <div class="tabs">
-            <ul class="tab_heads">
-                <li><a href="#sauces">Sauces</a>
-                </li>
-                <li><a href="#vegetables">Vegetables</a>
-                </li>
-                <li><a href="#meats">Meats</a>
-                </li>
-            </ul>
-            <div id="sauces" class="tabbody"></div>
-            <div id="vegetables" class="tabbody"></div>
-            <div id="meats" class="tabbody"></div>
-        </div>
+	<div id="maincontent">
+		<div id="reciept">
+			<div id="topTitle">
+				<h1>Toppings</h1>
+			</div>
+			<div id="topBlock">
+				<p id="toppings"> </p>
+			</div>
+			<div id="priceTitle">
+				<h1>Price</h1>
+			</div>
+			<div id="priceBlock">
+				<p id="price"> </p>
+			</div>
+		</div>
+		<div class="tabs">
+			<ul class="tab_heads">
+				<li><a href="#sauces">Sauces</a>
+				</li>
+				<li><a href="#vegetables">Vegetables</a>
+				</li>
+				<li><a href="#meats">Meats</a>
+				</li>
+			</ul>
+			<div id="sauces" class="tabbody"></div>
+			<div id="vegetables" class="tabbody"></div>
+			<div id="meats" class="tabbody"></div>
+		</div>
 
-        <div id="centerDiv">
-            <div id="pizzadiv" style="position:relative; top: 0; left: 0;">
-                <img src="toppingImages/pizza.png" style="position:relative;">
-            </div>
-            <div id="form1">
-                <h2 style="float: left; margin-left: 7px">Pick a Pizza Type</h2>
-                <h2 style="float:right; margin-right:50px">Pick a Size</h2>
-                <select name="speed" id="pizzas">
-                </select>
-                <select name="wah" id="sizes">
-                    <option value="0">Small</option>
-                    <option value="1">Medium</option>
-                    <option value="2">Large</option>
-                    <option value="3">X-Large</option>
-                </select>
-                <form action="order.html">
-                    <input id="order" type="submit" value="Order Now">
-                </form>
-            </div>
-        </div>
-    </div>
-    <script src="scripts/load_toppings.js"></script>
-    <script src="scripts/load_pizzas.js"></script>
+		<div id="centerDiv">
+			<div id="pizzadiv" style="position:relative; top: 0; left: 0;">
+				<img src="toppingImages/pizza.png" style="position:relative;">
+			</div>
+			<div id="form1">
+				<h2 style="float: left; margin-left: 7px">Preset Pizzas</h2>
+				<h2 style="float:right; margin-right:50px">Sizes</h2>
+				<select name="speed" id="pizzas">
+				</select>
+				<select name="wah" id="sizes">
+					<option value="0">Small</option>
+					<option value="1">Medium</option>
+					<option value="2">Large</option>
+					<option value="3">X-Large</option>
+				</select>
+				<form action="order.html">
+					<input id="order" type="submit" value="Order Now">
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="scripts/load_toppings.js"></script>
+	<script src="scripts/load_pizzas.js"></script>
 </body>
 
 </html>

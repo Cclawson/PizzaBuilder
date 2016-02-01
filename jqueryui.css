@@ -1,0 +1,94 @@
+.tabs {
+	background: slategray;
+	border: none;
+}
+
+.tabs .ui-tabs {
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+}
+
+.ui-tabs .ui-tabs-panel {
+	overflow-y: scroll;
+	overflow-x: hidden;
+	height: 88.1%;
+}
+
+.ui-corner-all,
+.ui-corner-top,
+.ui-corner-bottom,
+.ui-corner-right,
+.ui-corner-br,
+.ui-corner-tr,
+.ui-corner-bl,
+.ui-corner-tl {
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+}
+
+.tabs .ui-widget-header {
+	background: slategray;
+	border: none;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+}
+
+.tabs .ui-widget-content {
+	background-color: #f0f0f0;
+}
+
+.tabs .ui-tabs-nav .ui-state-default {
+	background: #e0e0e0;
+	border: none;
+}
+
+.tabs .ui-tabs-nav .ui-state-active {
+	background: #f0f0f0;
+	border: none;
+}
+
+.tabs .ui-tabs-nav .ui-state-default a {
+	color: slategray;
+	background-color: #e0e0e0;
+	transition: color 0.5s;
+}
+
+.tabs .ui-tabs-nav .ui-state-default a:hover {
+	color: darkred;
+}
+
+.tabs .ui-tabs-nav .ui-state-active a {
+	background-color: #f0f0f0;
+	color: darkred;
+}
+
+.ui-selectmenu-button {
+	background: #f0f0f0;
+}
+
+.ui-selectmenu-text {
+	color: darkred;
+}
+
+.ui-icon {
+	color: darkred;
+}
+
+.ui-menu {
+	background-color: #f0f0f0;
+}
+
+.ui-menu-item {
+	background-color: #f0f0f0;
+	color: slategray;
+	border: none;
+}
+
+.ui-menu .ui-state-focus {
+	background: #f0f0f0;
+	color: darkred;
+	border: none;
+}

@@ -1,9 +1,9 @@
 var counter = 0;
 var topping_template = function (id, name, url, type) {
 	var top = '<div id="' + id + '" class="topping"><img class="topping_image" src="' + url + '"><h4 class="topping_name">' + name + '</h4>';
-	top += '<label class="rad' + 0 + '"><input type="radio" id="' + id + 0 + '" class="radio" name="topping' + counter + '" value="' + 0 + '" checked="checked"/><i></i></label>';
+	top += '<label class="rad' + 0 + '"><input type="radio" id="' + id + 0 + '" class="radio" title="' + name + '" name="topping' + counter + '" value="' + 0 + '" checked="checked"/><i></i></label>';
 	for (var i = 1; i < 4; i += 1) {
-		top += '<label class="rad' + i + '"><input type="radio" id="' + id + i + '" class="radio" name="topping' + counter + '" value="' + i + '"/><i></i></label>';
+		top += '<label class="rad' + i + '"><input type="radio" id="' + id + i + '" class="radio" title="' + name + '" name="topping' + counter + '" value="' + i + '"/><i></i></label>';
 	}
 	$("#pizzadiv").append('<img id="topping' + counter + 'img" style="position: absolute; top: 15px; left: 22px;"/>');
 	counter++;

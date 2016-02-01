@@ -1,7 +1,7 @@
 {
 	"pizzas": [
 		{
-			"name": "Custom Pizza",
+			"name": "Custom",
 			"size": 0,
 			"value": "custom_pizza",
 			"sauce": 0,
@@ -117,7 +117,7 @@
 			}
     },
 		{
-			"name": "Everything Pizza",
+			"name": "Everything",
 			"size": 2,
 			"value": "everything_pizza",
 			"sauce": 0,
@@ -165,7 +165,7 @@
 			}
     },
 		{
-			"name": "Hawaiian Pizza",
+			"name": "Hawaiian",
 			"size": 2,
 			"value": "hawaiian_pizza",
 			"sauce": 6,
@@ -213,7 +213,7 @@
 			}
     },
 		{
-			"name": "Meat Lovers Pizza",
+			"name": "Meat Lovers",
 			"size": 2,
 			"value": "meat_lovers_pizza",
 			"sauce": 0,
@@ -261,7 +261,7 @@
 			}
     },
 		{
-			"name": "Vegetarian Pizza",
+			"name": "Vegetarian",
 			"size": 2,
 			"value": "vegetarian_pizza",
 			"sauce": 0,
