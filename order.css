@@ -76,6 +76,24 @@ p {
 	animation-iteration-count: infinite;
 }
 
+@keyframes example1 {
+	0% {
+		margin-left: 0px;
+	}
+	100% {
+		margin-left: 520px;
+	}
+}
+
+@keyframes example2 {
+	0% {
+		width: 0px;
+	}
+	100% {
+		width: 520px;
+	}
+}
+
 @-webkit-keyframes example1 {
 	0% {
 		margin-left: 0px;
