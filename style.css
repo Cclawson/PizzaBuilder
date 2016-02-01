@@ -1,188 +1,188 @@
 body {
-	font-family: Verdana, Arial, sans-serif;
-	background-color: black;
+    font-family: Verdana, Arial, sans-serif;
+    background-color: black;
 }
 
 #maincontent {
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 30px;
-	width: 90%;
-	padding: 10px;
-	height: 700px;
-	width: 1500px;
-	border-style: solid;
-	border-color: darkred;
-	border-width: 50px;
-	border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 90%;
+    padding: 10px;
+    height: 700px;
+    width: 1500px;
+    border-style: solid;
+    border-color: darkred;
+    border-width: 50px;
+    border-radius: 20px;
 }
 
 .tabs {
-	float: right;
-	margin-left: 10px;
-	margin-right: 10px;
-	width: 350px;
-	height: 690px;
-	overflow: hidden;
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 350px;
+    height: 690px;
+    overflow: hidden;
 }
 
 .ui-helper-reser .tabbody {
-	overflow: scroll;
-	max-height: 600px;
+    overflow: scroll;
+    max-height: 600px;
 }
 
 .topping_image {
-	width: 100px;
-	float: right;
+    width: 100px;
+    float: right;
 }
 
 #centerDiv {
-	float: left;
-	background-color: slategray;
-	width: 920px;
-	height: 700px;
+    float: left;
+    background-color: slategray;
+    width: 920px;
+    height: 700px;
 }
 
 #pizzadiv {
-	width: 300px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 150px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
 }
 
 #form1 {
-	margin-left: auto;
-	margin-right: auto;
-	width: 404px
+    margin-left: auto;
+    margin-right: auto;
+    width: 406px
 }
 
 #order {
-	width: 404px;
-	height: 50px;
-	background-color: darkred;
-	border: none;
-	color: white;
-	font-size: 30px;
-	border-radius: 20px;
+    width: 404px;
+    height: 50px;
+    background-color: darkred;
+    border: none;
+    color: white;
+    font-size: 30px;
+    border-radius: 20px;
 }
 
 #reciept {
-	font-family: Verdana, Arial, sans-serif;
-	margin: auto;
-	width: 200px;
-	height: 700px;
-	background-color: lightslategray;
-	float: right;
+    font-family: Verdana, Arial, sans-serif;
+    margin: auto;
+    width: 200px;
+    height: 700px;
+    background-color: lightslategray;
+    float: right;
 }
 
 #sauces {
-	max-height: 600px;
+    max-height: 600px;
 }
 
 #topTitle {
-	text-align: center;
-	height: 50px;
-	line-height: 50px;
-	background-color: darkred;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    background-color: darkred;
 }
 
 #priceTitle {
-	text-align: center;
-	height: 50px;
-	line-height: 50px;
-	background-color: darkred;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    background-color: darkred;
 }
 
 #topBlock,
 #priceBlock {
-	padding: 0 15px;
-	text-align: left;
+    padding: 0 15px;
+    text-align: left;
 }
 
 #topBlock p,
 #priceBlock p {
-	padding: 0 0;
-	margin: 0 1;
-	text-align: left;
+    padding: 0 0;
+    margin: 0 1;
+    text-align: left;
 }
 
 .rad0 > input,
 .rad1 > input,
 .rad2 > input,
 .rad3 > input {
-	visibility: hidden;
-	position: absolute;
+    visibility: hidden;
+    position: absolute;
 }
 
 .rad0 > i,
 .rad1 > i,
 .rad2 > i,
 .rad3 > i {
-	display: inline-block;
-	vertical-align: middle;
-	width: 30px;
-	height: 30px;
-	transition: 0.2s;
-	border-radius: 50%;
-	box-shadow: inset 0 0 0 7px #f0f0f0;
-	border: 1px solid gray;
-	margin-left: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    transition: 0.2s;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 7px #f0f0f0;
+    border: 1px solid gray;
+    margin-left: 5px;
 }
 
 .rad0 > i {
-	background-image: url("RadBut/radio0.png");
+    background-image: url("RadBut/radio0.png");
 }
 
 .rad1 > i {
-	background-image: url("RadBut/radio1.png");
+    background-image: url("RadBut/radio1.png");
 }
 
 .rad2 > i {
-	background-image: url("RadBut/radio2.png");
+    background-image: url("RadBut/radio2.png");
 }
 
 .rad3 > i {
-	background-image: url("RadBut/radio3.png");
+    background-image: url("RadBut/radio3.png");
 }
 
 .rad0:hover > i,
 .rad1:hover > i,
 .rad2:hover > i,
 .rad3:hover > i {
-	box-shadow: inset 0 0 0 3px #f0f0f0;
-	*/
+    box-shadow: inset 0 0 0 3px #f0f0f0;
+    */
 }
 
 .rad0 > input:checked + i {
-	box-shadow: inset 0 0 0 3px #f0f0f0;
-	background-image: url("RadBut/radio0-selected.png");
-	border: 1px solid red;
+    box-shadow: inset 0 0 0 3px #f0f0f0;
+    background-image: url("RadBut/radio0-selected.png");
+    border: 1px solid red;
 }
 
 .rad1 > input:checked + i {
-	box-shadow: inset 0 0 0 3px #f0f0f0;
-	background-image: url("RadBut/radio1-selected.png");
-	border: 1px solid red;
+    box-shadow: inset 0 0 0 3px #f0f0f0;
+    background-image: url("RadBut/radio1-selected.png");
+    border: 1px solid red;
 }
 
 .rad2 > input:checked + i {
-	box-shadow: inset 0 0 0 3px #f0f0f0;
-	background-image: url("RadBut/radio2-selected.png");
-	border: 1px solid red;
+    box-shadow: inset 0 0 0 3px #f0f0f0;
+    background-image: url("RadBut/radio2-selected.png");
+    border: 1px solid red;
 }
 
 .rad3 > input:checked + i {
-	box-shadow: inset 0 0 0 3px #f0f0f0;
-	background-image: url("RadBut/radio3-selected.png");
-	border: 1px solid red;
+    box-shadow: inset 0 0 0 3px #f0f0f0;
+    background-image: url("RadBut/radio3-selected.png");
+    border: 1px solid red;
 }
 
 #sizes {
-	width: 200px;
-	height: auto;
+    width: 200px;
+    height: auto;
 }
 
 #pizzas {
-	width: 200px;
-	height: auto;
+    width: 200px;
+    height: auto;
 }
