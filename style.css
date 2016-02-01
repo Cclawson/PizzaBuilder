@@ -124,7 +124,7 @@ body {
 	height: 30px;
 	transition: 0.2s;
 	border-radius: 50%;
-	box-shadow: inset 0 0 0 7px transparent;
+	box-shadow: inset 0 0 0 7px #f0f0f0;
 	border: 1px solid gray;
 	margin-left: 5px;
 }
@@ -149,30 +149,30 @@ body {
 .rad1:hover > i,
 .rad2:hover > i,
 .rad3:hover > i {
-	box-shadow: inset 0 0 0 3px transparent;
+	box-shadow: inset 0 0 0 3px #f0f0f0;
 	*/
 }
 
 .rad0 > input:checked + i {
-	box-shadow: inset 0 0 0 3px transparent;
+	box-shadow: inset 0 0 0 3px #f0f0f0;
 	background-image: url("RadBut/radio0-selected.png");
 	border: 1px solid red;
 }
 
 .rad1 > input:checked + i {
-	box-shadow: inset 0 0 0 3px transparent;
+	box-shadow: inset 0 0 0 3px #f0f0f0;
 	background-image: url("RadBut/radio1-selected.png");
 	border: 1px solid red;
 }
 
 .rad2 > input:checked + i {
-	box-shadow: inset 0 0 0 3px transparent;
+	box-shadow: inset 0 0 0 3px #f0f0f0;
 	background-image: url("RadBut/radio2-selected.png");
 	border: 1px solid red;
 }
 
 .rad3 > input:checked + i {
-	box-shadow: inset 0 0 0 3px transparent;
+	box-shadow: inset 0 0 0 3px #f0f0f0;
 	background-image: url("RadBut/radio3-selected.png");
 	border: 1px solid red;
 }
