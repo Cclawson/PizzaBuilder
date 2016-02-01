@@ -1,89 +1,113 @@
 body {
-    background-color: black;
-    color: red;
+	background-color: black;
+	color: red;
 }
 
 div {
-    border-radius: 25px;
-    border: solid 5px black;
+	border-radius: 25px;
+	border: solid 5px black;
 }
 
 #maincontent {
-    position: relative;
-    width: 800px;
-    height: 400px;
-    background: gray;
-    margin: auto;
-    box-shadow: 4px 4px 4px white;
+	position: relative;
+	width: 800px;
+	height: 400px;
+	background: gray;
+	margin: auto;
+	box-shadow: 4px 4px 4px white;
 }
 
 #text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: white;
-    padding: 2rem;
-    width: 80%;
-    height: 70%;
-    text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: white;
+	padding: 2rem;
+	width: 80%;
+	height: 70%;
+	text-align: center;
 }
 
 p {
-    top: 30%;
-    left: 50%;
-    font-size: 36px;
-    font-family: "Arial Black";
+	top: 30%;
+	left: 50%;
+	font-size: 36px;
+	font-family: "Arial Black";
 }
 
 #deliv {
-    font-size: 30px;
+	font-size: 30px;
 }
 
 #pizza {
-    height: 100px;
+	height: 100px;
 }
 
 #loading {
-    border: none;
-    background-color: red;
-    width: 100px;
-    height: 100px;
-    float: left;
-    -webkit-animation-name: exmaple2;
-    -webkit-animation-duration: 8s;
-    -webkit-animation-iteration-count: infinite;
-    animation-name: example2;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
+	border: none;
+	background-color: red;
+	width: 100px;
+	height: 100px;
+	float: left;
+	-webkit-animation-name: exmaple2;
+	-webkit-animation-duration: 8s;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-name: exmaple2;
+	-moz-animation-duration: 8s;
+	-moz-animation-iteration-count: infinite;
+	animation-name: example2;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
 }
 
 #pizzaimg {
-    width: 100px;
-    height: 100px;
-    float: left;
-    -webkit-animation-name: exmaple1;
-    -webkit-animation-duration: 8s;
-    -webkit-animation-iteration-count: infinite;
-    animation-name: example1;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
+	width: 100px;
+	height: 100px;
+	float: left;
+	-webkit-animation-name: exmaple1;
+	-webkit-animation-duration: 8s;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-name: exmaple1;
+	-moz-animation-duration: 8s;
+	-moz-animation-iteration-count: infinite;
+	animation-name: example1;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes example1 {
-    0% {
-        margin-left: 0px;
-    }
-    100% {
-        margin-left: 520px;
-    }
+	0% {
+		margin-left: 0px;
+	}
+	100% {
+		margin-left: 520px;
+	}
 }
 
 @-webkit-keyframes example2 {
-    0% {
-        width: 0px;
-    }
-    100% {
-        width: 520px;
-    }
+	0% {
+		width: 0px;
+	}
+	100% {
+		width: 520px;
+	}
+}
+
+@-moz-keyframes example1 {
+	0% {
+		margin-left: 0px;
+	}
+	100% {
+		margin-left: 520px;
+	}
+}
+
+@-moz-keyframes example2 {
+	0% {
+		width: 0px;
+	}
+	100% {
+		width: 520px;
+	}
 }
