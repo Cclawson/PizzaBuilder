@@ -53,7 +53,8 @@
         if (totaltop >= 5) {
             totaltop -= 2;
             $("#priceBlock").append("<p>Special Deal: Get 5 Toppings for $3.00</p>");
-        } else {
+        } else if (totaltop > 0) {
+
             totaltop -= 1;
         }
 
